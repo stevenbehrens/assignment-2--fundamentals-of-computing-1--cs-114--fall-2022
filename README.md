@@ -11,7 +11,7 @@
 ---
 
 ## ❖・Introduction・❖
-For this assignment, you’ll be writing a program that accepts input from the user in the form of an integer, then creates a diamond whose width (in columns) and height (in rows) are dictated by user input. For example, if the user enters 5, then the height of the diamond is 5 rows and the width of the diamond is 5 columns. See [this video](http://vanegas.cs.hartford.edu/uploads/videos/diamond-program-in-java.mp4).
+For this assignment, you’ll be writing a program that accepts input from the user in the form of an integer, then creates a diamond whose width (in columns) and height (in rows) are dictated by user input. For example, if the user enters 5, then the height of the diamond is 5 rows and the width of the diamond is 5 columns. See [http://vanegas.cs.hartford.edu/uploads/videos/diamond-program-in-java.mp4](http://vanegas.cs.hartford.edu/uploads/videos/diamond-program-in-java.mp4).
 
 Odd and even versions of the diamond are rendered differently. Review the video again. Determining the difference is left as an exercise for the reader as part of this assignment.
 
