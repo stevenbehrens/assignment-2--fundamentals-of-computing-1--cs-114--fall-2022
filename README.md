@@ -50,8 +50,9 @@ Enter a number
 *****
  ***
   *
----
 ```
+
+---
 
 ## ❖ Grading ❖
 | Item                                                          | Points  |
