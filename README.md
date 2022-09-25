@@ -54,13 +54,13 @@ Enter a number
 ```
 
 ## ❖ Grading ❖
-| Item                                           | Points |
-|------------------------------------------------|:------:|
-| Program works according to instructions        | `X`   |
-| Code compliant with EditorConfig rules         | `X`   |
-| Code is neat and variable names are logical    | `X   |
-| Odd version of diamond rendered according to video rendering    | `X`   |
-| Even version of diamond rendered according to video rendering    | `X`   |
+| Item                                                          | Points  |
+|---------------------------------------------------------------|:-------:|
+| Program works according to instructions                       | `20`    |
+| Code compliant with EditorConfig rules                        | `20`    |
+| Code is neat and professional                                 | `20`    |
+| Odd version of diamond rendered according to video rendering  | `20`    |
+| Even version of diamond rendered according to video rendering | `20`    |
 
 ---
 
