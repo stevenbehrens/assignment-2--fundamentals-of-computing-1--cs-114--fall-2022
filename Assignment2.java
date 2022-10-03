@@ -7,26 +7,46 @@ public class Assignment2 {
         int inputnumber = input.nextInt();
 
         if (inputnumber % 2 == 0){
+            int addAstrisk = 0;
+            int numberOfSpaces = (inputnumber);
+            for(int i = 0; i <= inputnumber; i++){
+                for(int s = numberOfSpaces + 2; s >= 1; s--){
+                    System.out.print(" ");
+                }
+                for(int a = 1; a <= addAstrisk - 2; a++){
+
+                    System.out.print("*");
+                    System.out.print(" ");
+                }
+                System.out.println();
+                if(i < inputnumber / 2 + 1){
+                    addAstrisk = addAstrisk + 2;
+                    numberOfSpaces = numberOfSpaces - 2;
+                } else{
+                    addAstrisk = addAstrisk - 2;
+                    numberOfSpaces = numberOfSpaces + 2;
+                }
+            }
 
         } else{
             int addAstrisk = 1;
             int numberOfSpaces = (inputnumber / 2);
-            for(int i = 0; i < inputnumber + 1; i++){
-                for(int s = numberOfSpaces; s > 1; s--){
+            for(int i = 1; i <= inputnumber; i++){
+                for(int s = numberOfSpaces; s >= 1; s--){
                     System.out.print(" ");
                 }
-                for(int a = 1; a < add - 2; a++){
+                for(int a = 1; a <= addAstrisk ; a++){
                     System.out.print("*");
                 }
-                if(i < (inputnumber / 2) + 1){
-                    add = add + 2;
+                System.out.println();
+                if(i < inputnumber / 2 + 1){
+                    addAstrisk = addAstrisk + 2;
                     numberOfSpaces = numberOfSpaces - 1;
                 } else{
-                    add = add - 2;
+                    addAstrisk = addAstrisk - 2;
                     numberOfSpaces = numberOfSpaces + 1;
                 }
             }
-
 
         }
     }
