@@ -5,11 +5,10 @@ public class Assignment2 {
         System.out.println("Please enter a positive integer");
         Scanner input = new Scanner(System.in);
         int inputnumber = input.nextInt();
-
         if (inputnumber % 2 == 0){
             int addAstrisk = 0;
             int numberOfSpaces = (inputnumber);
-            for(int i = 0; i <= inputnumber; i++){
+            for(int i = 0; i <= inputnumber + 2; i++){
                 for(int s = numberOfSpaces + 2; s >= 1; s--){
                     System.out.print(" ");
                 }
@@ -17,6 +16,9 @@ public class Assignment2 {
 
                     System.out.print("*");
                     System.out.print(" ");
+                }
+                if(addAstrisk == 2){
+                    System.out.print("\b" + "*");
                 }
                 System.out.println();
                 if(i < inputnumber / 2 + 1){
